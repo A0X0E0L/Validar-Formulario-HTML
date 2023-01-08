@@ -88,7 +88,8 @@ window.onload = function() {
       document.getElementById("alert").style.visibility = "hidden";
     }
 
-    if (state.value === "") {
+    //cambiando color de fondo a State
+    if (state.value === "Pick a State") {
       //console.log("El campo email está vacio");
       document.getElementById("state").style.background = "red";
       //alert
@@ -96,6 +97,7 @@ window.onload = function() {
     } else {
       document.getElementById("alert").style.visibility = "hidden";
     }
+
     if (postalCode.value === "") {
       //console.log("El campo email está vacio");
       document.getElementById("postalCode").style.background = "red";
